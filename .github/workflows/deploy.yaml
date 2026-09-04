@@ -70,4 +70,4 @@ jobs:
 
     - name: 'Terraform Apply'
       if: github.ref == 'refs/heads/master'
-      run: terraform apply -auto-approve tfpla
+      run: terraform apply -auto-approve tfplan
